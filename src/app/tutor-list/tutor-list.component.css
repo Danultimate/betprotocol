@@ -1,0 +1,114 @@
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  float: none;
+}
+
+.card-list-header {
+  height: 30vh;
+  position: relative;
+}
+
+.card-list-text-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-list-text-main {
+  display: block;
+  font-family: Avenir-Medium;
+  font-size: 24px;
+  color: #212b3a;
+  font-weight: 400;
+}
+
+.card-list-text-sub {
+  display: block;
+  font-family: Avenir-Light;
+  font-size: 18px;
+  color: #212b3a;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  height: 349px;
+  width: 260px;
+  margin: 5px 20px;
+  padding: 5px;
+  
+}
+
+.card-image {    
+    background-color: #F0F0F0;
+    padding-top: 30px;
+}
+
+.card-image img {    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card-container {
+    background-color: #DFDFDF;
+    padding: 20px;
+}
+
+.tutor-name {
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    color: #212B3A;
+}
+
+.tutor-city {    
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: Avenir-Medium;
+    font-size: 10px;
+    color: #212B3A;        
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+.label {    
+    font-family: Avenir-Medium;
+    font-size: 10px;
+    color: #212B3A;
+}
+
+.filter-box {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.btn-filter {
+    background: #DADADA;
+    border: 1px solid #BDBDBD;
+    font-family: Avenir-Medium;
+    font-size: 12px;
+    color: #212B3A;
+    text-align: center;
+    padding: 5px 25px;    
+    cursor: pointer;
+}
+.btn-filter-left {    
+    border-radius: 4px 0 0 4px;    
+}
+
+.btn-filter-right {
+    border-radius: 0 4px 4px 0;
+}

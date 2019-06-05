@@ -1,0 +1,37 @@
+<section class="content">
+  <div class="card-list-header">
+    <div>
+      <h2 class="card-list-text-header">
+        <span class="card-list-text-main">Our Tutors</span>
+        <span class="card-list-text-sub">We have more than 100 tutors from various disciplines ready to match with you.</span>      
+      </h2>
+    </div>
+  </div>
+  <div class="filter-box">
+      Filter by:
+      <button (click)="filterTutors('Liverpool')" class="btn-filter btn-filter-left">Liverpool</button>
+      <button (click)="filterTutors('London')" class="btn-filter">London</button>
+      <button (click)="filterTutors('Manchester')" class="btn-filter btn-filter-right">Manchester</button>
+  </div>
+  <div class="filter-box">
+      Sort by:
+      <button (click)="sortTutors('Name')" class="btn-filter btn-filter-left">Name</button>    
+      <button (click)="sortTutors('City')" class="btn-filter btn-filter-right">City</button>
+  </div>
+  <hr>
+  <div class="container">  
+    <div *ngFor="let tutor of tutors"  class="card">    
+        <div class="card-image">
+          <img src="../../assets/images/user-photo.svg" alt="tutor-img">      
+        </div>            
+        <div class="card-container">        
+          <p class="tutor-name">{{tutor.name}}</p>
+          <span class="label">City</span>        
+          <p class="tutor-city">{{tutor.city}}</p>
+          <span class="label">Students so far</span>        
+          <p>{{tutor.students}}</p>
+        </div>
+    </div>
+  </div>
+</section>
+

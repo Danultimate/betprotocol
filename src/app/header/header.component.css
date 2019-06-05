@@ -1,0 +1,79 @@
+.header {
+    height: 45vh;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+
+.logo {
+    height: 11.9px;
+}
+
+.right-buttons {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+}
+
+.become-tutor {
+    font-family: Avenir-Medium;
+    font-size: 14px;
+    color: #253141;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.btn-signin {
+    border: 1px solid #212B3A;
+    border-radius: 4px;
+    font-family: Avenir-Medium;
+    font-size: 14px;
+    color: #253141;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.heading-primary {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heading-primary-main {
+    display: block;
+    font-family: Avenir-Heavy;
+    font-size: 36px;
+    color: #253141;
+    font-weight: 400;        
+}
+
+.heading-primary-sub {
+    display: block;
+    font-family: Avenir-Light;
+    font-size: 18px;
+    color: #212B3A;  
+    font-weight: 400;      
+}
+
+.btn:link, .btn:visited {
+    text-decoration: none;
+}
+
+.btn-green {
+    padding: 10px 40px;
+    background: #009C38;
+    border-radius: 4px;
+    font-family: Avenir-Medium;
+    font-size: 16px;
+    color: #FFFFFF;    
+    display: inline-block;
+    margin-top: 50px;
+}
